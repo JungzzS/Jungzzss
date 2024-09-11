@@ -1,0 +1,50 @@
+dark-blue {
+    background-color: rgb(33, 129, 239);
+}
+
+.dark-white {
+    background-color: rgb(0, 153, 255);
+}
+.nav-item .nav-link{
+    border-bottom: 1px solid rgb(33, 129, 239);             
+}
+
+.nav-item .nav-link:hover {
+    color:hsl(0, 41%, 97%);
+    border-bottom: 1px solid white;
+    transition: 0.5;
+}
+
+.featured-project .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.featured-project .card-body {
+    padding: 0;
+}
+
+.featured-project .thumbnail {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.featured-project .container {
+    max-width: 1200px;
+}
+
+.w-10 {
+    width: 100px;
+}
+
+.mb-6 {
+    margin-bottom: -20px;
+}
+
+@media (max-witdh:576){
+    .h1 {
+        color:red;
+    }
+}
